@@ -1,4 +1,3 @@
-set nocompatible    " use vim defaults
 set ls=2            " allways show status line
 set tabstop=4       " numbers of spaces of tab character
 set shiftwidth=4    " numbers of spaces to (auto)indent
@@ -17,3 +16,4 @@ set ttyfast         " smoother changes
 set nostartofline   " don't jump to first character when paging
 syntax on           " syntax highlighing
 colorscheme xoria256
+filetype plugin on
