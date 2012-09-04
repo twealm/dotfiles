@@ -5,7 +5,7 @@ alias svnfilehistory="~/Develop/bitbucket/utils/svnfilehistory.sh"
 alias svnfilehistorywithdiff="~/Develop/bitbucket/utils/svnfilehistorywithdiff.sh"
 alias sublime="open -a \"Sublime Text 2\""
 alias mc="mc -S xoria256"
-source ~/Develop/bitbucket/configs/git-completition.bash
+source ~/Develop/bitbucket/configs/git-completion.bash
 
 ##
 # Your previous /Users/i.akgaev/.bash_profile file was backed up as /Users/i.akgaev/.bash_profile.macports-saved_2012-08-22_at_12:21:34
