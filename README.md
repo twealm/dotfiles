@@ -1,4 +1,4 @@
 Configs
 =======
 
-Different configurational files
+Different configuration files
