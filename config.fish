@@ -5,7 +5,7 @@ end
 
 # run git installed from homebrew, not the Apple one
 function git
-	/usr/local/git/bin/git $argv
+	/usr/local/bin/git $argv
 end
 
 # open files in SublimeText 2 <- still needs improvements
