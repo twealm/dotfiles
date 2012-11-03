@@ -19,3 +19,5 @@ set nostartofline   " don't jump to first character when paging
 syntax on           " syntax highlighing
 colorscheme xoria256
 filetype plugin on
+call pathogen#infect()
+filetype plugin indent on
