@@ -1,4 +1,5 @@
 set nocompatible
+filetype off
 set ls=2            " allways show status line
 set tabstop=4       " numbers of spaces of tab character
 set shiftwidth=4    " numbers of spaces to (auto)indent
