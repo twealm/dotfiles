@@ -18,12 +18,4 @@ set ttyfast         " smoother changes
 set nostartofline   " don't jump to first character when paging
 syntax on           " syntax highlighing
 colorscheme xoria256
-
-set rtp+=~/.vim/bundle/vundle
-call vundle#rc()
-
-Bundle 'gmarik/vundle'
-
-" My bundles
-filetype plugin indent on
 filetype plugin on
