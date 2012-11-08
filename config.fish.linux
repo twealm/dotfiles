@@ -1,0 +1,6 @@
+# run mc with xoria256 colorscheme
+function mc
+	mc -S xoria256
+end
+
+set TERM xterm-256color
