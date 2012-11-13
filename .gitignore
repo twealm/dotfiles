@@ -16,3 +16,6 @@ profile
 
 # zsh
 .histfile
+
+# vim
+.netrwhist
