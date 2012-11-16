@@ -13,3 +13,9 @@ build/*
 xcuserdata
 profile
 *.moved-aside
+
+# zsh
+.histfile
+
+# vim
+.netrwhist
