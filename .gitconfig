@@ -1,6 +1,6 @@
 [user]
-	name = twealm
-	email = twealm@gmail.com
+	name = Ilia
+	email = ilya@itomy.ch
 
 [color]
 	    diff = auto
@@ -40,4 +40,5 @@
 	st = status
 	di = diff
 	cam = commit -a -m
+	cm = commit -m
 	pom = push origin master
