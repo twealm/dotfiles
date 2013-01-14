@@ -17,8 +17,8 @@
 	  meta = yellow bold
 	  frag = magenta
 	  plain = white bold
-	  old = red bold
-	  new = green bold
+	  old = red
+	  new = green
 	  commit = yellow bold
 	  func = green dim
 	  #plain = white bold
@@ -33,6 +33,7 @@
 
 [core]
 	editor = /usr/bin/vim
+	quotepath = false
 
 [alias]
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
