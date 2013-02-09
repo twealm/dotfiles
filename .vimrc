@@ -49,13 +49,13 @@ set report=0                " : commands always print changed line count.
 set shortmess+=a            " Use [+]/[RO]/[w] for modified/readonly/written.
 set laststatus=2            " Always show statusline, even if only 1 window.
 
-" displays tabs with :set list & displays when a line runs off-screen
-" set listchars=tab:>-,eol:$,trail:-,precedes:<,extends:>
-" set list
-
- """ Searching and Patterns
+""" Searching and Patterns
 set ignorecase              " Default to using case insensitive searches,
 set smartcase               " unless uppercase letters are used in the regex.
 set smarttab                " Handle tabs more intelligently 
 set hlsearch                " Highlight searches by default.
 set incsearch               " Incrementally search while typing a /regex
+
+
+" displays tabs with :set list & displays when a line runs off-screen
+set listchars=tab:>-,eol:$,trail:-,precedes:<,extends:>
