@@ -1,7 +1,3 @@
-[user]
-	name = xxxx
-	email = xxxxxm@gmail.com
-
 [color]
 	    diff = auto
 	    status = auto
