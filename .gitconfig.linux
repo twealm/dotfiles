@@ -1,6 +1,6 @@
 [user]
-	name = twealm
-	email = twealm@gmail.com
+	name = xxxx
+	email = xxxxxm@gmail.com
 
 [color]
 	    diff = auto
@@ -44,3 +44,4 @@
 	di = diff
 	cam = commit -a -m
 	pom = push origin master
+    cm = commit -m 
