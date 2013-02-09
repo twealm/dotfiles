@@ -19,3 +19,7 @@ profile
 
 # vim
 .netrwhist
+
+#fish
+.fish_history
+.fishd.*
