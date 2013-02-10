@@ -1,4 +1,4 @@
-Configs
+Twealm's .files
 =======
 
-Different configuration files
+Dotfiles that make sense for me.
