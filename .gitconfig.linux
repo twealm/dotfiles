@@ -24,12 +24,6 @@
     changed = green
     untracked = cyan
 
-[credential]
-    helper = cache
-
-[credeential]
-    helper = cache --timeout=7200
-
 [core]
     editor = /usr/bin/vim
 
