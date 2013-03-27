@@ -23,3 +23,6 @@ profile
 #fish
 .fish_history
 .fishd.*
+
+# OSX
+.DS_Store
