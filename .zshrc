@@ -15,6 +15,7 @@ case `uname` in
         alias ack="ack-grep";;
 esac
 alias mc="mc -S xoria256"
+alias curl="/usr/local/opt/curl/bin/curl"
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
