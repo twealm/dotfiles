@@ -43,5 +43,6 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 export PATH=/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
 export TERM=xterm-256color
-export SSL_CERT_FILE=/usr/local/etc/openssl/certs/cert.pem
+export SSL_CERT_FILE=~/.cacert.pem
+export CURL_CA_BUNDLE=~/.cacert.pem
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
