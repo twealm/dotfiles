@@ -37,7 +37,7 @@ alias curl="/usr/local/opt/curl/bin/curl"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git ruby rvm osx sublime brew gem)
+plugins=(git ruby rvm osx sublime brew gem nyan)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -46,4 +46,3 @@ export PATH=/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/u
 export TERM=xterm-256color
 export SSL_CERT_FILE=~/.cacert.pem
 export CURL_CA_BUNDLE=~/.cacert.pem
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
