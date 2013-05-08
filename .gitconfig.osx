@@ -39,5 +39,6 @@
     cam = commit -a -m
     cm = commit -m
     pom = push origin master
+    amen = commit --amend
 [push]
 	default = upstream
