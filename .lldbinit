@@ -1,3 +1,8 @@
+
+#set promt
+settings set prompt [lldb]$ 
+
+#aliases
 command regex rd 's/^[[:space:]]*$/po [[UIApp keyWindow] recursiveDescription]/' 's/^(.+)$/po [%1 recursiveDescription]/'
-command regex slowmo 's/^[[:space:]]*$/p [(CALayer *)[[[[UIApplication sharedApplication] windows] objectAtIndex:0] layer] setSpeed:.1f]
-command regex normalmo 's/^[[:space:]]*$/p [(CALayer *)[[[[UIApplication sharedApplication] windows] objectAtIndex:0] layer] setSpeed:1.f]
+command alias slowmo p [(CALayer *)[[[[UIApplication sharedApplication] windows] objectAtIndex:0] layer] setSpeed:.1f]
+command regex normalmo p [(CALayer *)[[[[UIApplication sharedApplication] windows] objectAtIndex:0] layer] setSpeed:1.f]
