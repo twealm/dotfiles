@@ -6,3 +6,5 @@ settings set prompt [lldb]$
 command regex rd 's/^[[:space:]]*$/po [[UIApp keyWindow] recursiveDescription]/' 's/^(.+)$/po [%1 recursiveDescription]/'
 command alias slowmo p [(CALayer *)[[[[UIApplication sharedApplication] windows] objectAtIndex:0] layer] setSpeed:.1f]
 command alias normalmo p [(CALayer *)[[[[UIApplication sharedApplication] windows] objectAtIndex:0] layer] setSpeed:1.f]
+command alias sframe po (NSString*)NSStringFromCGRect((CGRect)[self frame])
+command alias bounds po (NSString*)NSStringFromCGRect((CGRect)[self bounds])
