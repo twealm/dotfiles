@@ -46,3 +46,5 @@ export PATH=/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/u
 export TERM=xterm-256color
 export SSL_CERT_FILE=~/.cacert.pem
 export CURL_CA_BUNDLE=~/.cacert.pem
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
