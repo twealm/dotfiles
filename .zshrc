@@ -16,6 +16,7 @@ case `uname` in
 esac
 alias mc="mc -S xoria256"
 alias curl="/usr/local/opt/curl/bin/curl"
+alias gitst="git status"
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
@@ -37,7 +38,7 @@ alias curl="/usr/local/opt/curl/bin/curl"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git ruby rvm osx sublime brew gem nyan zsh-syntax-highlighting)
+plugins=(git ruby osx sublime brew gem nyan zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -47,4 +48,3 @@ export TERM=xterm-256color
 export SSL_CERT_FILE=~/.cacert.pem
 export CURL_CA_BUNDLE=~/.cacert.pem
 
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
