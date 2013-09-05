@@ -43,7 +43,7 @@ plugins=(git ruby osx sublime brew gem nyan zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+export PATH=/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/opt/ruby/bin
 export TERM=xterm-256color
 export SSL_CERT_FILE=~/.cacert.pem
 export CURL_CA_BUNDLE=~/.cacert.pem
