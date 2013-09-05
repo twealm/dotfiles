@@ -11,6 +11,7 @@ syntax on                   " syntax highlighing
 colorscheme xoria256        " Set colorscheme to xoria256
 filetype plugin on          " 
 filetype plugin indent on   " 
+set paste                   " do not indent pasted text
 set ls=2                    " allways show status line
 set scrolloff=3             " keep 3 lines when scrolling
 set showcmd                 " display incomplete commands
