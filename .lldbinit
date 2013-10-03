@@ -1,6 +1,6 @@
 
 #set promt
-settings set prompt [lldb]$ 
+settings set prompt "[lldb]$ "
 
 #aliases
 command regex rd 's/^[[:space:]]*$/po [[UIApp keyWindow] recursiveDescription]/' 's/^(.+)$/po [%1 recursiveDescription]/'
