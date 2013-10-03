@@ -17,6 +17,7 @@ esac
 alias mc="mc -S xoria256"
 alias curl="/usr/local/opt/curl/bin/curl"
 alias gitst="git status"
+alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
