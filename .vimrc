@@ -8,7 +8,7 @@ command! W :w               " >_< Woah, at last I fixed this
 " ---------------------------
 set nocompatible            " Don't be compatible with vi
 syntax on                   " syntax highlighing
-colorscheme xoria256        " Set colorscheme to xoria256
+colorscheme solarized       " Set colorscheme to soloarized
 filetype plugin on          " 
 filetype plugin indent on   " 
 set paste                   " do not indent pasted text
