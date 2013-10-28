@@ -42,6 +42,8 @@ alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 plugins=(git ruby osx sublime brew gem nyan zsh-syntax-highlighting rbenv)
 
 source $ZSH/oh-my-zsh.sh
+source /usr/local/opt/chruby/share/chruby/chruby.sh
+chruby 2.0.0-p247
 
 # Customize to your needs...
 export PATH=/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/opt/ruby/bin
