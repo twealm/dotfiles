@@ -1,3 +1,17 @@
+if [[ `uname` == 'Linux' ]]
+then
+        export LINUX=1
+else
+        export LINUX=
+fi
+
+if [[ `uname` == 'Darwin' ]]
+then
+        export OSX=1
+else
+        export OSX=
+fi
+
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 
@@ -10,10 +24,12 @@ ZSH_THEME="af-magic"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-case `uname` in 
-    "Linux")
+
+if [[ "$LINUX" == "1" ]]
+then 
         alias ack="ack-grep";;
-esac
+fi
+
 alias mc="mc -S xoria256"
 alias curl="/usr/local/opt/curl/bin/curl"
 alias gitst="git status"
@@ -39,15 +55,25 @@ alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git ruby osx sublime brew gem nyan zsh-syntax-highlighting rbenv)
+
+if [[ "$OSX" == "1" ]]
+then
+        plugins=(git ruby osx sublime brew gem zsh-syntax-highlighting)
+else
+        plugins=(git ruby sublime brew gem zsh-syntax-highlighting)
+fi
 
 source $ZSH/oh-my-zsh.sh
-source /usr/local/opt/chruby/share/chruby/chruby.sh
+if [[ "$OSX" == "1" ]]
+then
+    source /usr/local/opt/chruby/share/chruby/chruby.sh
+else
+    source /usr/local/share/chruby/chruby.sh
+fi
+
 chruby 2.0.0-p247
 
 # Customize to your needs...
 export PATH=/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/opt/ruby/bin
 export TERM=xterm-256color
-export SSL_CERT_FILE=~/.cacert.pem
-export CURL_CA_BUNDLE=~/.cacert.pem
 
