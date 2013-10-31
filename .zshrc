@@ -27,7 +27,7 @@ ZSH_THEME="af-magic"
 
 if [[ "$LINUX" == "1" ]]
 then 
-        alias ack="ack-grep";;
+        alias ack="ack-grep"
 fi
 
 alias mc="mc -S xoria256"
