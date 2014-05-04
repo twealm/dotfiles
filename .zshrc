@@ -63,9 +63,9 @@ alias gitst="git status"
 
 if [[ "$OSX" == "1" ]]
 then
-        plugins=(git ruby osx sublime brew gem zsh-syntax-highlighting)
+        plugins=(git ruby pip osx sublime brew gem zsh-syntax-highlighting)
 else
-        plugins=(git ruby sublime brew gem zsh-syntax-highlighting)
+        plugins=(git ruby pip sublime brew gem zsh-syntax-highlighting)
 fi
 
 source $ZSH/oh-my-zsh.sh
