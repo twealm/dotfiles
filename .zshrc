@@ -76,11 +76,10 @@ else
     source /usr/local/share/chruby/chruby.sh
 fi
 
-#chruby 2.0.0-p247
 
 # Customize to your needs...
 export PATH=/usr/local/bin:/usr/local/sbin:/usr/bin::/opt/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
 export TERM=xterm-256color
 
-chruby 2.0.0-p247
+#chruby 2.1.0
 

@@ -43,3 +43,6 @@
     yolo = push --force
 [push]
 	default = upstream
+[user]
+	name = 
+	email = 
