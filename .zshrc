@@ -63,9 +63,9 @@ alias gitst="git status"
 
 if [[ "$OSX" == "1" ]]
 then
-        plugins=(git ruby osx sublime brew gem zsh-syntax-highlighting)
+        plugins=(git ruby pip osx sublime brew gem zsh-syntax-highlighting)
 else
-        plugins=(git ruby sublime brew gem zsh-syntax-highlighting)
+        plugins=(git ruby pip sublime brew gem zsh-syntax-highlighting)
 fi
 
 source $ZSH/oh-my-zsh.sh
@@ -80,6 +80,8 @@ fi
 # Customize to your needs...
 export PATH=/usr/local/bin:/usr/local/sbin:/usr/bin::/opt/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
 export TERM=xterm-256color
+#changes ls file output to show dotfiles first.
+export LC_ALL="C"
 
 #chruby 2.1.0
 
