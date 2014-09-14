@@ -38,7 +38,6 @@ fi
 
 alias mc="mc -S xoria256"
 alias gitst="git status"
-alias remote="ssh $(whoami)@twealm.com"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
