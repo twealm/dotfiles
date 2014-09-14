@@ -41,6 +41,7 @@
     pom = push origin master
     amen = commit --amend
     yolo = push --force
+
 [push]
 	default = upstream
 [user]
