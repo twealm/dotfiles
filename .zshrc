@@ -82,6 +82,5 @@ export TERM=xterm-256color
 #changes ls file output to show dotfiles first.
 export LC_ALL="C"
 
-<<<<<<< HEAD
 chruby 2.1.2
 
