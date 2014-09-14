@@ -38,6 +38,7 @@ fi
 
 alias mc="mc -S xoria256"
 alias gitst="git status"
+alias remote="ssh $(whoami)@twealm.com"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -76,11 +77,9 @@ else
     source /usr/local/share/chruby/chruby.sh
 fi
 
-#chruby 2.0.0-p247
-
 # Customize to your needs...
 export PATH=/usr/local/bin:/usr/local/sbin:/usr/bin::/opt/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
 export TERM=xterm-256color
 
-chruby 2.0.0-p247
+chruby 2.1.2
 
