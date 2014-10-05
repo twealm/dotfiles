@@ -36,6 +36,10 @@
     cm = commit -m
     pom = push origin master
     amen = commit --amend
+    co = checkout
 
 [push]
 	default = upstream
+[user]
+	name = twealm
+	email = twealm@gmail.com
