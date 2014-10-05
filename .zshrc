@@ -80,7 +80,10 @@ fi
 export PATH=/usr/local/bin:/usr/local/sbin:/usr/bin::/opt/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
 export TERM=xterm-256color
 #changes ls file output to show dotfiles first.
-export LC_ALL="C"
+
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+export LANGUAGE=en_US.UTF-8
 
 chruby 2.1.2
 
