@@ -8,3 +8,5 @@ command alias slowmo p [(CALayer *)[[[[UIApplication sharedApplication] windows]
 command alias normalmo p [(CALayer *)[[[[UIApplication sharedApplication] windows] objectAtIndex:0] layer] setSpeed:1.f]
 command alias sframe po (NSString*)NSStringFromCGRect((CGRect)[self frame])
 command alias bounds po (NSString*)NSStringFromCGRect((CGRect)[self bounds])
+#import
+command script import /usr/local/opt/chisel/libexec/fblldb.py
