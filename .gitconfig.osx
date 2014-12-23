@@ -28,7 +28,7 @@
     helper = osxkeychain
 
 [core]
-    editor = /usr/bin/vim
+    editor = `which vim`
     quotepath = false
 
 [alias]
