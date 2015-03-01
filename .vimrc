@@ -11,12 +11,13 @@ syntax on                   " syntax highlighing
 "colorscheme solarized      " Set colorscheme to soloarized
 filetype off                " 
 
+set encoding=utf-8 fileencoding=utf-8 termencoding=utf-8 " saving and encoding
+set nobackup nowritebackup noswapfile autoread " no backup or swap
 set paste                   " do not indent pasted text
 set ls=2                    " allways show status line
 set scrolloff=3             " keep 3 lines when scrolling
 set showcmd                 " display incomplete commands
 set ruler                   " show the cursor position all the time
-set nobackup                " do not keep a backup file
 set number                  " show line numbers
 set title                   " show title in console title bar
 set ttyfast                 " smoother changes
