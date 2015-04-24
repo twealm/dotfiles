@@ -6,7 +6,7 @@ from subprocess import CalledProcessError
 from sys import exit
 import os
 
-patterns = ["REMOVE IT!"]
+patterns = ["REMOVE_IT!"]
 
 def print_found(name, line, text, pattern):
     """Prints message about found pattern in file. First parameter will be blue and second - red."""
