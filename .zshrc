@@ -34,6 +34,7 @@ if [[ "$OSX" == "1" ]]
 then 
         alias curl="/usr/local/opt/curl/bin/curl"
         alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+	alias atom="/Applcication/Atom.app/Contents/MacOS/Atom"
 fi
 
 alias mc="mc -S xoria256"
