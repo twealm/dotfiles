@@ -19,7 +19,8 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="af-magic"
+# ZSH_THEME="af-magic"
+ZSH_THEME="honukai"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -85,6 +86,7 @@ export TERM=xterm-256color
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 export LANGUAGE=en_US.UTF-8
+export HOMEBREW_NO_ANALYTICS=1
 
-chruby 2.1.3
+chruby 2.2.4
 
