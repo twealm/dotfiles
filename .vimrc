@@ -19,6 +19,7 @@ set scrolloff=3             " keep 3 lines when scrolling
 set showcmd                 " display incomplete commands
 set ruler                   " show the cursor position all the time
 set number                  " show line numbers
+set relativenumber          " show relative numbers
 set title                   " show title in console title bar
 set ttyfast                 " smoother changes
 set nostartofline           " don't jump to first character when paging
@@ -57,6 +58,7 @@ set smartcase               " unless uppercase letters are used in the regex.
 set smarttab                " Handle tabs more intelligently 
 "set hlsearch                " Highlight searches by default.
 set incsearch               " Incrementally search while typing a /regex
+set colorcolumn=80          " Show 80th column marker
 
 let g:loaded_matchparen=1
 " displays tabs with :set list & displays when a line runs off-screen
