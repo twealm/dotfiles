@@ -43,6 +43,7 @@
     amen = commit --amend
     yolo = push --force
     co = checkout
+    diff-exclude = !git diff -- $(git diff --name-only | grep -Ev $1) #
 
 [push]
 	default = upstream
