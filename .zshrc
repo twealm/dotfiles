@@ -87,6 +87,7 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 export LANGUAGE=en_US.UTF-8
 export HOMEBREW_NO_ANALYTICS=1
+export COCOAPODS_DISABLE_STATS=1
 
 chruby 2.3.1
 
