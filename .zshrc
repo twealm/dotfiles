@@ -80,6 +80,7 @@ fi
 
 # Customize to your needs...
 export PATH=/usr/local/bin:/usr/local/sbin:/usr/bin::/opt/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+export PATH=$PATH:~/go/bin
 export TERM=xterm-256color
 #changes ls file output to show dotfiles first.
 
