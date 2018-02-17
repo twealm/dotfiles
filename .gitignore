@@ -19,6 +19,7 @@ profile
 
 # vim
 .netrwhist
+.vim/bundle/*
 
 #fish
 .fish_history
