@@ -33,9 +33,6 @@ fi
 
 if [[ "$OSX" == "1" ]]
 then 
-        alias curl="/usr/local/opt/curl/bin/curl"
-        alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
-	alias atom="/Applcication/Atom.app/Contents/MacOS/Atom"
 fi
 
 alias mc="mc -S xoria256"
@@ -81,6 +78,7 @@ fi
 # Customize to your needs...
 export PATH=/usr/local/bin:/usr/local/sbin:/usr/bin::/opt/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
 export PATH=$PATH:~/go/bin
+export PATH=$PATH:~/.sigrok/bin
 export TERM=xterm-256color
 #changes ls file output to show dotfiles first.
 
@@ -90,5 +88,5 @@ export LANGUAGE=en_US.UTF-8
 export HOMEBREW_NO_ANALYTICS=1
 export COCOAPODS_DISABLE_STATS=1
 
-chruby 2.3.1
+chruby 2.5.0
 
